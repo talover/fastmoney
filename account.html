@@ -1,0 +1,547 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Money fast">
+		<link rel='shortcut icon' type='image/x-icon' href='img/favicon.ico' />
+
+		<title>Money fast markup</title>
+		
+		<!-- FONTS -->
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300italic,300,500,700&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+		
+		<!-- COMMON STYLES -->
+		<link rel="stylesheet" type="text/css" href="bower_components/nouislider/distribute/jquery.nouislider.min.css">
+		<link rel="stylesheet" type="text/css" href="css/foundation.css">
+		<link rel="stylesheet" type="text/css" href="bower_components/simpletabs/simpletabs.css">
+		
+		<!-- MAIN STYLES -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<!--[if lt IE 9]>
+			<script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+			<link rel="stylesheet" type="text/css" href="css/ie.css">
+		<![endif]-->
+	</head>
+<body class="cbp-spmenu-push">
+
+<div id="container" class="fixed-layout">
+	<div class="off-canvas-wrap" >
+	<div class="inner-wrap">
+
+	<div id="header">
+		<div class="global_wrap">
+			<div class="header-top clearfix">
+				<button class="mob-menu-btn left-off-canvas-toggle" id="showLeftPush"></button>
+
+				<button class="lk">
+					Личный кабинет
+				</button>
+
+				<div class="lang">
+					<button class="lang-select">
+						<span class="lng">Рус</span>
+						<i></i>
+					</button>
+
+					<div class="lang-select-list">
+						<span>Рус</span>
+						<span>Анг</span>
+					</div>
+				</div>
+
+				<div class="social">
+					<span class="soc-name">MoneyFast в соц. сетях:</span>
+
+					<a href="#" class="soc inst"></a>
+					<a href="#" class="soc fb"></a>
+					<a href="#" class="soc vk"></a>
+				</div>
+			</div><!-- end .header-top -->
+
+			<div class="header-center clearfix">
+				<a href="#" class="mob-logo">
+					<img src="img/logo.png" alt="">
+				</a>
+
+				<div class="header-tel">
+					<i></i>
+					<span class="text">Наш Call Центр</span>
+
+					<span class="tel-block">
+						8 (800) 123 45 67
+					</span>
+
+					<span class="time">
+						Ежедневно с 9:00 до 20:00
+					</span>
+				</div>
+
+				<a href="#" class="logo">
+					<img src="img/logo.png" alt="">
+				</a>
+			</div><!-- end .header-center -->
+
+			<div class="header-bottom">
+				<ul class="menu">
+					<li>
+						<a href="#">Как это работает?</a>
+					</li>
+					<li class="hassub">
+						<a href="#">Как получить деньги?<i></i></a>
+
+						<ul class="submenu">
+							<li>
+								<a href="#">Как получить деньги 1</a>
+							</li>
+							<li>
+								<a href="#">Как получить деньги 2</a>
+							</li>
+							<li>
+								<a href="#">Как получить деньги 3</a>
+							</li>
+							<li>
+								<a href="#">Как получить деньги 4</a>
+							</li>
+						</ul>
+						
+					</li>
+					<li>
+						<a href="#">Как Вернуть деньги?</a>
+					</li>
+					<li>
+						<a href="#">о компании</a>
+					</li>
+					<li class="hassub">
+						<a href="#">акции<i></i></a>
+
+						<ul class="submenu">
+							<li>
+								<a href="#">Акция 1</a>
+							</li>
+							<li>
+								<a href="#">Акция 2</a>
+							</li>
+							<li>
+								<a href="#">Акция 3</a>
+							</li>
+							<li>
+								<a href="#">Акция 4</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="faq.html">Часто задаваемые вопросы</a>
+					</li>
+				</ul>
+			</div><!-- end .header-bottom -->
+		</div><!-- end .global_wrap -->
+	</div><!-- end #header -->
+
+	<div id="content">
+		<div class="global_wrap">
+
+				<div class="clearfix">
+					<ul class="breadcrumbs">
+						<li><a href="index.html">Главная</a></li>
+						<li>Личный кабинет</li>
+					</ul><!-- end .breadcrumbs -->
+					<a class="support-btn" href="">обратиться в техподдержку <i class="icon"></i></a>
+				</div>
+
+				<div class="clearfix">
+					<article class="inner-main">
+						<div class="simpleTabs">
+							<ul class="simpleTabsNavigation">
+								<li><a href="#">Открытый займ</a></li>
+								<li><a href="#">История займов</a></li>
+								<li><a href="#">Смена пароля</a></li>
+								<li><a href="#">Мои личные данные</a></li>
+							</ul>
+							<div class="simpleTabsContent">
+								<h3>Открытый займ</h3>
+								<table class="loans-history">
+									<thead>
+										<tr>
+											<th>#</th>
+											<th>Сумма займа</th>
+											<th>Выдан</th>
+											<th>Погасить до</th>
+											<th>Статус</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><a class="info-payed" href="#payed-popup">12345</a></td>
+											<td>15000</td>
+											<td>19.01.2015</td>
+											<td>06.02.2015</td>
+											<td class="outdated"><i class="icon"></i>Просрочен</td>
+										</tr>
+										<tr>
+											<td><a class="info-payed" href="#payed-popup">12345</a></td>
+											<td>15000</td>
+											<td>19.01.2015</td>
+											<td>06.02.2015</td>
+											<td class="payed-in-time"><i class="icon"></i>Оплачен в срок</td>
+										</tr>
+										<tr>
+											<td><a class="info-payed" href="#payed-popup">12345</a></td>
+											<td>15000</td>
+											<td>19.01.2015</td>
+											<td>06.02.2015</td>
+											<td class="payed-in-time"><i class="icon"></i>Оплачен в срок</td>
+										</tr>
+										<tr>
+											<td><a class="info-payed" href="#payed-popup">12345</a></td>
+											<td>15000</td>
+											<td>19.01.2015</td>
+											<td>06.02.2015</td>
+											<td class="waits-for-pay"><i class="icon"></i>Ожидает оплату</td>
+										</tr>
+									</tbody>
+								</table><!-- end .loans-history -->
+							</div>
+							<div class="simpleTabsContent">
+								<h3>История займов</h3>
+								<table class="loans-history">
+									<thead>
+										<tr>
+											<th>#</th>
+											<th>Сумма займа</th>
+											<th>Выдан</th>
+											<th>Погасить до</th>
+											<th>Статус</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><a class="info-payed" href="#payed-popup">12345</a></td>
+											<td>15000</td>
+											<td>19.01.2015</td>
+											<td>06.02.2015</td>
+											<td class="outdated"><i class="icon"></i>Просрочен</td>
+										</tr>
+										<tr>
+											<td><a class="info-payed" href="#payed-popup">12345</a></td>
+											<td>15000</td>
+											<td>19.01.2015</td>
+											<td>06.02.2015</td>
+											<td class="payed-in-time"><i class="icon"></i>Оплачен в срок</td>
+										</tr>
+										<tr>
+											<td><a class="info-payed" href="#payed-popup">12345</a></td>
+											<td>15000</td>
+											<td>19.01.2015</td>
+											<td>06.02.2015</td>
+											<td class="payed-in-time"><i class="icon"></i>Оплачен в срок</td>
+										</tr>
+										<tr>
+											<td><a class="info-payed" href="#payed-popup">12345</a></td>
+											<td>15000</td>
+											<td>19.01.2015</td>
+											<td>06.02.2015</td>
+											<td class="waits-for-pay"><i class="icon"></i>Ожидает оплату</td>
+										</tr>
+									</tbody>
+								</table><!-- end .loans-history -->
+							</div>
+							<div class="simpleTabsContent">
+								<h3>Смена пароля</h3>
+								<table class="loans-history">
+									<thead>
+										<tr>
+											<th>#</th>
+											<th>Сумма займа</th>
+											<th>Выдан</th>
+											<th>Погасить до</th>
+											<th>Статус</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><a class="info-payed" href="#payed-popup">12345</a></td>
+											<td>15000</td>
+											<td>19.01.2015</td>
+											<td>06.02.2015</td>
+											<td class="outdated"><i class="icon"></i>Просрочен</td>
+										</tr>
+										<tr>
+											<td><a class="info-payed" href="#payed-popup">12345</a></td>
+											<td>15000</td>
+											<td>19.01.2015</td>
+											<td>06.02.2015</td>
+											<td class="payed-in-time"><i class="icon"></i>Оплачен в срок</td>
+										</tr>
+										<tr>
+											<td><a class="info-payed" href="#payed-popup">12345</a></td>
+											<td>15000</td>
+											<td>19.01.2015</td>
+											<td>06.02.2015</td>
+											<td class="payed-in-time"><i class="icon"></i>Оплачен в срок</td>
+										</tr>
+										<tr>
+											<td><a class="info-payed" href="#payed-popup">12345</a></td>
+											<td>15000</td>
+											<td>19.01.2015</td>
+											<td>06.02.2015</td>
+											<td class="waits-for-pay"><i class="icon"></i>Ожидает оплату</td>
+										</tr>
+									</tbody>
+								</table><!-- end .loans-history -->
+							</div>
+							<div class="simpleTabsContent">
+								<h3>Мои личные данные</h3>
+								<table class="loans-history">
+									<thead>
+										<tr>
+											<th>#</th>
+											<th>Сумма займа</th>
+											<th>Выдан</th>
+											<th>Погасить до</th>
+											<th>Статус</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><a class="info-payed" href="#payed-popup">12345</a></td>
+											<td>15000</td>
+											<td>19.01.2015</td>
+											<td>06.02.2015</td>
+											<td class="outdated"><i class="icon"></i>Просрочен</td>
+										</tr>
+										<tr>
+											<td><a class="info-payed" href="#payed-popup">12345</a></td>
+											<td>15000</td>
+											<td>19.01.2015</td>
+											<td>06.02.2015</td>
+											<td class="payed-in-time"><i class="icon"></i>Оплачен в срок</td>
+										</tr>
+										<tr>
+											<td><a class="info-payed" href="#payed-popup">12345</a></td>
+											<td>15000</td>
+											<td>19.01.2015</td>
+											<td>06.02.2015</td>
+											<td class="payed-in-time"><i class="icon"></i>Оплачен в срок</td>
+										</tr>
+										<tr>
+											<td><a class="info-payed" href="#payed-popup">12345</a></td>
+											<td>15000</td>
+											<td>19.01.2015</td>
+											<td>06.02.2015</td>
+											<td class="waits-for-pay"><i class="icon"></i>Ожидает оплату</td>
+										</tr>
+									</tbody>
+								</table><!-- end .loans-history -->
+							</div>
+						</div><!-- end .simpleTabs -->
+
+					</article><!-- end .inner-main -->
+
+					<aside class="left-sidebar padding-top-sidebar">
+						
+						<h2>Оформить заем</h2>
+						<div class="calc-block">
+							<div class="range-line">
+								<span class="text">
+									Сколько вам нужно?
+								</span>
+								<input type="text" id="range_amount" value="20000">
+								<label for="range_amount">ТГ</label>
+
+								<!-- <span class="slide-warning">
+									Сумма более 50 000 тг. доступна со второго займа.
+								</span> -->
+
+								<div class="range-wrap">
+									<a href="#" class="minus"></a>
+									<a href="#" class="plus"></a>
+									<span class="min-value">10 000</span>
+									<span class="max-value">70 000</span>
+									
+									<div class="range-slider" id="money-slider"></div>
+								</div>
+							</div><!-- end .range-line -->
+
+							<div class="range-line amount">
+								<span class="text">
+									На сколько дней?
+								</span>
+								<input type="text" id="range_days" value="15">
+								<label for="range_days">дней</label>
+
+								<div class="range-wrap">
+									<a href="#" class="minus"></a>
+									<a href="#" class="plus"></a>
+									<span class="min-value">5</span>
+									<span class="max-value">30</span>
+
+									<div class="range-slider" id="period-slider"></div>
+								</div>
+							</div><!-- end .range-line.amount -->
+
+							<div class="calc-info clearfix">
+								<div class="calc-info-amount">
+									<i class="icon"></i>
+
+									<span class="text">
+										Вы берете
+									</span>
+									<span class="text"><b>20 000 тг</b></span>
+								</div>
+
+								<div class="calc-info-days">
+									<i class="icon"></i>
+
+									<span class="text">
+										До <small>(включительно)</small>
+									</span>
+									<span class="text"><b>30 янв</b>
+										<small>пятница</small></span>
+								</div>
+
+								<div class="calc-info-back">
+									<i class="icon"></i>
+
+									<span class="text">
+										Возвращаете
+									</span>
+									<span class="text"><b>29 000 тг</b></span>
+								</div>
+
+								<button class="calc-order">Оформить</button>
+							</div><!-- end .calc-info -->
+						</div><!-- end .calc-block -->
+
+					</aside><!-- end .left-sidebar -->
+				</div>
+
+		</div><!-- end .global_wrap -->
+
+	</div><!-- end #content -->
+
+	<div id="footer">
+		<div class="footer-top">
+			<div class="global_wrap">
+				<ul class="footer-menu">
+					<li>
+						<a href="#">Как это работает?</a>
+					</li>
+					<li>
+						<a href="#">Как получить деньги?</a>
+					</li>
+					<li>
+						<a href="#">Как Вернуть деньги?</a>
+					</li>
+					<li>
+						<a href="#">о компании</a>
+					</li>
+					<li>
+						<a href="#">акции</a>
+					</li>
+				</ul>
+			</div>
+		</div><!-- end .footer-top -->
+
+		<div class="footer-center">
+			<div class="global_wrap">
+				<div class="social">
+					<span class="soc-name">MoneyFast в соц. сетях:</span>
+
+					<a href="#" class="soc inst"></a>
+					<a href="#" class="soc fb"></a>
+					<a href="#" class="soc vk"></a>
+				</div>
+				
+				<div class="footer-payment">
+					<span>Работаем с:</span>
+
+					<a href="#" class="visa"><img src="img/visa.png" alt=""></a>
+					<a href="#" class="master"><img src="img/master.png" alt=""></a>
+					<a href="#" class="qiwi"><img src="img/qiwi.png" alt=""></a>
+				</div>
+			</div>
+		</div><!-- end .footer-center -->
+
+		<div class="footer-bottom">
+			<div class="global_wrap">
+				<span class="tel-block">
+					Наш Call Центр
+					<i>8 (800) 123 45 67</i>
+				</span>
+
+				<div class="copyright">
+					© 2014 <i>MoneyFast- Деньги до зарплаты Быстро!</i>
+				</div>
+			</div>
+		</div><!-- end .footer-bottom -->
+	</div><!-- end #footer -->
+	<a class="exit-off-canvas"></a>
+	</div>
+	</div>
+</div><!-- end #container -->
+<div id="payed-popup">
+	<table class="loan-info"  style="width: 400px;">
+		<thead>
+			<tr>
+				<th>Дата</th>
+				<th>Операция</th>
+				<th class="sum">Сумма</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Сегодня</td>
+				<td>Начислено к погашению согласно условиям предоставления займа.</td>
+				<td>0.0 тг.</td>
+			</tr>
+			<tr>
+				<td>31.12.2014</td>
+				<td>Поступление в счет погашения займа.
+		Источник: Кредитная карта</td>
+				<td>24575.0 тг.</td>
+			</tr>
+			<tr>
+				<td>19.12.2014</td>
+				<td>Перевод клиенту на счет:KZ**************9618 в АО "КАЗКОММЕРЦБАНК", БИК: 0KZKOKZKX</td>
+				<td>15000.0 тг.</td>
+			</tr>
+			<tr>
+				<td>19.12.2014</td>
+				<td>Принята заявка на займ </td>
+				<td>15000.0 тг.</td>
+			</tr>
+		</tbody>
+
+		<tfoot>
+			<tr>
+				<td></td>
+				<td colspan="2">
+					<a href="#" ><span><b>Скачать оферту</b></span></a>
+				</td>
+			</tr>
+		</tfoot>
+	</table>
+</div>
+
+<!-- SCRIPTS -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+<script src="bower_components/carouFredSel/jquery.carouFredSel-6.2.1-packed.js"></script>
+<script src="bower_components/ResponsiveSlides.js-master/responsiveslides.min.js"></script>
+<script src="bower_components/collapse/jquery.collapse.js"></script>
+<script src="bower_components/collapse/jquery.collapse_storage.js"></script>
+<script src="bower_components/classie/classie.js"></script>
+<script src="bower_components/simpletabs/simpletabs_1.3.js"></script>
+<script src="bower_components/nouislider/distribute/jquery.nouislider.all.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.4.7/js/foundation.min.js"></script>
+<script src="js/jquery.fancybox.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".info-payed").fancybox();
+	});
+</script>
+
+</body>
+</html>
