@@ -234,16 +234,16 @@ body{
     z-index: 6;
 }
 #header .logo{
-    width: 185px;
+    width: 240px;
     display: inline-block;
     vertical-align: top;
 }
 #header .mob-logo {
-    width: 185px;
+    width: 240px;
 }
 #header .logo img{
     border: none;
-    width: 185px;
+    width: 240px;
 }
 #header .header-tel{
     float: right;

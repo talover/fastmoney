@@ -575,7 +575,7 @@
 
 
 <!-- SCRIPTS -->
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+<script src="js/jquery-1.11.0.min.js"></script>
 <script src="bower_components/carouFredSel/jquery.carouFredSel-6.2.1-packed.js"></script>
 <script src="bower_components/ResponsiveSlides.js-master/responsiveslides.min.js"></script>
 <script src="bower_components/classie/classie.js"></script>
@@ -583,6 +583,16 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/foundation/5.4.7/js/foundation.min.js"></script>
 <script src="js/main.js"></script>
 
-
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(document).foundation();
+            $(".off-canvas-submenu").hide();
+            $(".off-canvas-submenu-call").click(function() {
+                 var icon = $(this).parent().next(".off-canvas-submenu").is(':visible') ? "active" : 'active';
+                 $(this).parent().next(".off-canvas-submenu").slideToggle('fast');
+                 $(this).find(".right").toggleClass(icon);
+        });
+    });
+</script>
 </body>
 </html>

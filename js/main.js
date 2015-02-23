@@ -1,11 +1,4 @@
 $(document).on('ready', function() {
-	$(document).foundation();
-		$(".off-canvas-submenu").hide();
-		$(".off-canvas-submenu-call").click(function() {
-			 var icon = $(this).parent().next(".off-canvas-submenu").is(':visible') ? "active" : 'active';
-			 $(this).parent().next(".off-canvas-submenu").slideToggle('fast');
-			 $(this).find(".right").toggleClass(icon);
-		});
 
 	//Left push menu
 	// var menuLeft = document.getElementById( 'cbp-spmenu-s1' ),
